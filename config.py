@@ -6,5 +6,5 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", '')
     AUTH_USER = os.environ.get('AUTH_USERS','7170328188').split(',')
     AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
-    HOST = "https://drm-api-six.vercel.app"
-    CREDIT = "🇳‌🇮‌🇰‌🇭‌🇮‌🇱‌"#Here You Can Change with Your Name  or any custom name or title you prefer
+    HOST = "https://api.masterapi.tech"
+    CREDIT = "ᗅოꪖꫛ"#Here You Can Change with Your Name  or any custom name or title you prefer
